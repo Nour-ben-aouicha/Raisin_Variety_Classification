@@ -1,6 +1,6 @@
 # Raisin_Variety_Classification
 
-## ProjectDescription
+## Project Description
 In this project, we used data cleaning and analysis tools to preprocess our data and AI models to classify the data points. <br><br>
 ## Data Insights
 The Raisin dataset will be used in identifying two different classes of raisin (Kecimen and besni). <br><br>
@@ -16,3 +16,8 @@ It contains 6 features:<br>
 <br><br>
 **Data overview:** <br><br>
 ![0](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/552025e9-b6d8-4f73-ac53-97041101a2fe)
+**Data Summary:** <br><br>
+![1](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/54ffa3e1-7a74-4b41-b739-c6cba7d9ea33)
+**Data Visualization:** <br><br>
+![2](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/66f930b2-12d2-4eae-af4e-6eba5bed80b9)
+![3](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/9fd30786-8a5b-4354-a7c9-6e76deb04f6c)
