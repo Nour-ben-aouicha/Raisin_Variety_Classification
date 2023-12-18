@@ -16,11 +16,15 @@ It contains 6 features:<br>
 <br><br>
 **Data overview:** <br><br>
 ![0](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/552025e9-b6d8-4f73-ac53-97041101a2fe)
+![5](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/4b6d3914-d854-402a-999d-3ce266964422)
+
 <br><br>**Data Visualization:** <br><br>
 ![image](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/6c338000-3d5b-41e3-a5e3-0347da4ca19a)
 <br><br>
 ## Data Preprocessing
-First step is the data imputation; we relaced the missing values with the KNN values then we performed the Shapiro-Wilk test to test the normality of our data distribution for each feature; we find that the data is not normally distributed in neither of the features. We then proceed to the modality then we run the correlation tests and perform the PCA.<br><br>
-![12](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/145d13de-9df1-4524-9826-c3c12a3434ca)
-
-
+First step is the data imputation; we relaced the missing values with the KNN values then we performed the Shapiro-Wilk test to test the normality of our data distribution for each feature; we find that the data is not normally distributed in neither of the features. We then proceed to the modality then we run the correlation tests and perform the PCA. Here are the components obtained:<br><br>
+![image (1)](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/78a945e3-52a0-4b21-a940-ee8fdbe8d901)
+<br><br>
+## Modeling
+In this section, we will use GLM to perform the classification task.<br><br>
+![15](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/c4a61268-d372-4d0a-8802-e9ac6305fce1)
