@@ -1,7 +1,7 @@
 # Raisin_Variety_Classification
 
 ## Project Description
-🔍 In this project, we utilized data cleaning and analysis tools for data preprocessing and AI models for classifying raisin data points.
+🔍 In this project, we used data cleaning and analysis tools for data preprocessing and AI models for classifying raisin data points.
 ## Data Insights
 🍇 The dataset identifies two raisin classes (Kecimen and Besni) with 6 features:
 <br><br>
