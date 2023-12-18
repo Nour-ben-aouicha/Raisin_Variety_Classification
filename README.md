@@ -17,8 +17,10 @@ It contains 6 features:<br>
 **Data overview:** <br><br>
 ![0](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/552025e9-b6d8-4f73-ac53-97041101a2fe)
 <br><br>**Data Visualization:** <br><br>
-<div style="display: flex;">
-  <img src="[image1.png](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/66f930b2-12d2-4eae-af4e-6eba5bed80b9)" width="400" />
-  <img src="[image2.png](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/9fd30786-8a5b-4354-a7c9-6e76deb04f6c)" width="400" />
-</div>
+![image](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/6c338000-3d5b-41e3-a5e3-0347da4ca19a)
+<br><br>
+## Data Preprocessing
+First step is the data imputation; we relaced the missing values with the KNN values then we performed the Shapiro-Wilk test to test the normality of our data distribution for each feature; we find that the data is not normally distributed in neither of the features. We then proceed to the modality then we run the correlation tests and perform the PCA.<br><br>
+![12](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/145d13de-9df1-4524-9826-c3c12a3434ca)
+
 
