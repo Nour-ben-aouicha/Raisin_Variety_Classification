@@ -1,7 +1,8 @@
 # Raisin_Variety_Classification
 
+## ProjectDescription
+In this project, we used data cleaning and analysis tools to preprocess our data and AI models to classify the data points. <br><br>
 ## Data Insights
-
 The Raisin dataset will be used in identifying two different classes of raisin (Kecimen and besni). <br><br>
 It contains 6 features:<br>
 * Area: the number of pixels within the boundaries of the raisin.
@@ -12,3 +13,6 @@ It contains 6 features:<br>
 * ConvexArea: the number of pixels of the smallest convex shell of the region formed by the raisin.
 * Extent: the ratio of the region formed by the raisin to the total pixels in the bounding box.
 * Class : Kecimen and Besni raisin.
+<br><br>
+Data overview:<br>
+![0](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/c227c9bb-1b73-48f6-9d02-ebdaf04a11e7)
