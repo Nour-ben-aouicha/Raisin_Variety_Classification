@@ -14,5 +14,5 @@ It contains 6 features:<br>
 * Extent: the ratio of the region formed by the raisin to the total pixels in the bounding box.
 * Class : Kecimen and Besni raisin.
 <br><br>
-** Data overview: **<br>
+**Data overview:** <br><br>
 ![0](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/552025e9-b6d8-4f73-ac53-97041101a2fe)
