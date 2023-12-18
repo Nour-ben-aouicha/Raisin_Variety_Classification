@@ -1,32 +1,27 @@
 # Raisin_Variety_Classification
 
 ## Project Description
-In this project, we used data cleaning and analysis tools to preprocess our data and AI models to classify the data points. <br><br>
+🔍 In this project, we utilized data cleaning and analysis tools for data preprocessing and AI models for classifying raisin data points.
 ## Data Insights
-The Raisin dataset will be used in identifying two different classes of raisin (Kecimen and besni). <br><br>
-It contains 6 features:<br>
-* Area: the number of pixels within the boundaries of the raisin.
-* Perimeter: measures the environment by calculating the distance between the boundaries of the raisin and the pixels around it.
-* MajorAxisLength: the length of the main axis, which is the longest line that can be drawn on the raisin.
-* MinorAxisLength: the length of the small axis, which is the shortest line that can be drawn on the raisin.
-* Eccentricity: measure of the eccentricity of the ellipse, which has the same moments as raisins.
-* ConvexArea: the number of pixels of the smallest convex shell of the region formed by the raisin.
-* Extent: the ratio of the region formed by the raisin to the total pixels in the bounding box.
-* Class : Kecimen and Besni raisin.
+🍇 The dataset identifies two raisin classes (Kecimen and Besni) with 6 features:
 <br><br>
-**Data overview:** <br><br>
+Area, Perimeter, MajorAxisLength, MinorAxisLength, Eccentricity, ConvexArea, Extent.
+Also includes a 'Class' feature denoting the raisin variety.
+<br><br>
+**Data exploration:** 📊<br><br> 
 ![5](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/4b6d3914-d854-402a-999d-3ce266964422)
 
-<br><br>**Data Visualization:** <br><br>
+<br><br>**Data Visualization:** 🖼️<br><br>
 ![image](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/6c338000-3d5b-41e3-a5e3-0347da4ca19a)
 <br><br>
 ## Data Preprocessing
-First step is the data imputation; we relaced the missing values with the KNN values then we performed the Shapiro-Wilk test to test the normality of our data distribution for each feature; we find that the data is not normally distributed in neither of the features. We then proceed to the modality then we run the correlation tests and perform the PCA. Here are the components obtained:<br><br>
+🛠️ After imputation and confirming non-normal data distribution through the Shapiro-Wilk test, we proceeded with modality, correlation tests, and PCA analysis.<br><br>
+### PCA Components: 📈 
 ![7](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/fdbcbc52-8c83-4282-8635-b8687bb60ba1)
 ![image (1)](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/78a945e3-52a0-4b21-a940-ee8fdbe8d901)
 <br><br>
 ## Modeling
-In this section, we will use GLM to perform the classification task.<br><br>
+🧮 Utilizing GLM for the classification task:<br><br>
 ![15](https://github.com/Nour-ben-aouicha/Raisin_Variety_Classification/assets/92543024/c4a61268-d372-4d0a-8802-e9ac6305fce1)
 ### Conclusion:
-The model suggests that MinorAxisLength is significantly influenced by Area, MajorAxisLength, Eccentricity, ConvexArea, Extent, and Perimeter of the data points. These variables collectively contribute to explaining the variation in MinorAxisLength, with strong statistical significance indicated by their low p-values and large t-values.
+📊 The model suggests that MinorAxisLength is significantly influenced by Area, MajorAxisLength, Eccentricity, ConvexArea, Extent, and Perimeter of the data points. These variables collectively contribute to explaining the variation in MinorAxisLength, with strong statistical significance indicated by their low p-values and large t-values.
